@@ -1,0 +1,161 @@
+header {
+    width: 100;
+    height: 120vh;
+    background: url(https://c4.wallpaperflare.com/wallpaper/603/409/88/cheese-olives-tomatoes-mushrooms-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    background-position: no-repeat;
+    /* background-position: bottom right; */
+    position: relative;
+}
+
+nav {
+    width: 100;
+    height: 70px;
+    padding: 0px 70px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 0px 15px grey;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: brown;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    background-color: #e7e7e7;
+}
+
+.menu a:last-child {
+    background: brown;
+    color: white;
+    border-radius: 8px;
+}
+
+.menu a:last-child:hover {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.h-text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding: 15px;
+}
+
+
+.h-text p {
+    color: #f6f15d;
+    letter-spacing: 3px;
+    font font-weight: bold;
+
+}
+
+.h-text h1 {
+    font-size: 4em;
+    line-height: 1.5em;
+    color: #E6BA95;
+}
+
+.h-text h1 span {
+    color: #FAFDD6;
+}
+
+.h-text h2 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+#order {
+    transition-duration: 0s;
+    text-decoration: none;
+    color: white;
+    background: brown;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+#order:hover {
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.order:hover {
+    opacity: 0.6
+}
+
+</style></head><body><button class=".order:hover">Order Now ! !</button>
+}
+
+.button {
+    background-color: #f3d55d;
+    border: none;
+    color: rgb(255, 245, 160);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    cursor: none;
+}
+
+.button5 {
+    border-radius: 60px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(18, 36, 135);
+    color: white;
+}
